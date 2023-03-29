@@ -513,20 +513,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
+.visible {
+  visibility: visible;
 }
 
 .relative {
   position: relative;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.left-4 {
-  left: 1rem;
 }
 
 .mx-auto {
@@ -538,8 +530,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
 }
 
 .mt-10 {
@@ -552,6 +548,10 @@ video {
 
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .block {
@@ -570,18 +570,6 @@ video {
   height: 5rem;
 }
 
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
-.w-4\/5 {
-  width: 80%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -594,10 +582,6 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .items-center {
   align-items: center;
 }
@@ -608,10 +592,6 @@ video {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
 }
 
 .gap-8 {
@@ -703,11 +683,6 @@ video {
   text-align: center;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -749,6 +724,11 @@ video {
   line-height: 2rem;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-charcoal {
   --tw-text-opacity: 1;
   color: rgb(18 38 32 / var(--tw-text-opacity));
@@ -761,10 +741,6 @@ video {
 
 .underline {
   text-decoration-line: underline;
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
 }
 
 * {
@@ -784,13 +760,67 @@ video {
   padding: 1rem;
   border-radius: 100%;
   box-shadow: .5rem .5rem 1rem #888;
+  z-index: 1000;
 }
 
 header {
-  height: calc(70vh - 2rem);
+  height: 70vh;
   background-repeat: no-repeat;
   background-image: url('./src/assets/neven-krcmarek-V4EOZj7g1gw-unsplash.jpg');
   background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 80vh;
+  }
+
+  .menuBtn {
+    display: block !important;
+  }
+
+  .topNav {
+    display: none !important;
+  }
+}
+
+.visible {
+  display: block !important;
+}
+
+.menuBtn {
+  display: none;
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .sideNav {
+    display: none !important;
+  }
+}
+
+.topNav {
+  display: flex;
+  grid-gap: 1rem;
+}
+
+.sideNav {
+  display: none;
+  transition: all .5s;
+  width: 100%;
+  text-align: center;
+  background-color: #D6AD60;
+}
+
+.sideNav ul {
+  padding: 1rem 0;
+}
+
+.sideNav ul li {
+  padding: 1rem 0;
 }
 
 .myname {
@@ -838,6 +868,10 @@ header {
 }
 
 @media (min-width: 768px) {
+  .md\:ml-20 {
+    margin-left: 5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -846,12 +880,52 @@ header {
     display: grid;
   }
 
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-4\/5 {
+    width: 80%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:p-0 {
+    padding: 0px;
+  }
+
   .md\:p-20 {
     padding: 5rem;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 

@@ -23,10 +23,63 @@
 }
 
 header {
-  height: calc(70vh - 2rem);
+  height: 70vh;
   background-repeat: no-repeat;
   background-image: url('./src/assets/neven-krcmarek-V4EOZj7g1gw-unsplash.jpg');
   background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 80vh;
+  }
+
+  .menuBtn {
+    display: block !important;
+  }
+
+  .topNav {
+    display: none !important;
+  }
+}
+
+.visible {
+  display: block !important;
+}
+
+.menuBtn {
+  display: none;
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .sideNav {
+    display: none !important;
+  }
+}
+
+.topNav {
+  display: flex;
+  grid-gap: 1rem;
+}
+
+.sideNav {
+  display: none;
+  transition: all .5s;
+  width: 100%;
+  text-align: center;
+  background-color: #D6AD60;
+}
+
+.sideNav ul {
+  padding: 1rem 0;
+}
+
+.sideNav ul li {
+  padding: 1rem 0;
 }
 
 .myname {

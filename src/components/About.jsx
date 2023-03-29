@@ -21,7 +21,7 @@ function About() {
           </ul>
           <p className='leading-8'>Do you need a Health writer/editor/Content writer?</p>
           <p className='leading-8'>I'd love to work with you!</p>
-          <p className='leading-8'>Send me an emaail, let's talk.</p>
+          <p className='leading-8'>Send me an email, let's talk.</p>
           <p className='leading-8'>Email: <a href="mailto:healthywrite65@gmail.com" className='text-slate-700'>healthywrite65@gmail.com</a></p>
       </div>
       <hr />
