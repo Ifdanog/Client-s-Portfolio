@@ -1,11 +1,11 @@
-import danielDP from '../assets/daniel-dp.jpg'
-import favourDP from '../assets/favour-dp.jpg'
-import dorcasDP from '../assets/dorcas-dp.jpg'
-import israelDP from '../assets/israel-dp.jpg'
-import naomiDP from '../assets/naomi-dp.jpg'
+import danielDP from '../assets/Daniel-dp.jpg'
+import favourDP from '../assets/Favour-dp.jpg'
+import dorcasDP from '../assets/Dorcas-dp.jpg'
+import israelDP from '../assets/Israel-dp.jpg'
+import naomiDP from '../assets/Naomi-dp.jpg'
 import nickDP from '../assets/nick.jpg'
-import raphDP from '../assets/raph-dp.jpg'
-import samuelDP from '../assets/samuel-dp.jpg'
+import raphDP from '../assets/Raph-dp.jpg'
+import samuelDP from '../assets/Samuel-dp.jpg'
 
 function Reviews() {
   return (
