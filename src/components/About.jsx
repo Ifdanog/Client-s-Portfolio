@@ -1,4 +1,4 @@
-import image from '../assets/DSC_3156.jpg'
+import image from '../assets/kola.jpg'
 
 function About() {
   return (
