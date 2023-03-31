@@ -4,6 +4,7 @@ function Showcases() {
   return (
     <>
     <div id="showcases" className='p-4 md:p-20'>
+      <h1 className="l-spacing text-center text-slate-500 py-8">SHOWCASES</h1>
       <div className="block md:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className='w-full bg-gold p-8 rounded-lg mb-4 lg:mb-0'>
           {/* <FaEdit /> */}

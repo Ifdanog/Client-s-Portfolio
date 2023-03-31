@@ -8,7 +8,7 @@ function Contact() {
           <p className=''>LET'S TALK</p>
           <h3 className='nextproject'><span className='aboutyour'>ABOUT YOUR</span> NEXT PROJECT<span>.</span></h3>
         </div>
-        <a href='https://wa.me/message/VQDOTEJEAELOJI' target='_blank'>
+        <a href='mailto:healthywrite65@gmail.com' target='_blank'>
           <button className='py-2 px-4 border border-black'>GET IN TOUCH</button>
         </a>
       </div>

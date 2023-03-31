@@ -16,7 +16,7 @@ function App() {
           <h1 className="text-xl font-semibold text-white">Hi!</h1>
           <h1 className='font-bold text-4xl md:text-6xl overflow-hidden text-white myname'>I'm Kolawole Oluwasina Olawuwo</h1>
           <p className="mt-2 text-white">A Writer</p>
-          <a href='https://wa.me/message/VQDOTEJEAELOJI' target='_blank'>
+          <a href='mailto:healthywrite65@gmail.comI' target='_blank'>
             <button className='mt-10 text-sm md:text-normal px-4 py-2 border border-white rounded-full text-white bg-gold'>CONTACT ME NOW</button>
           </a>
         </div>
