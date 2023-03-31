@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='p-4 md:p-20'>
+    <div id='contact' className='p-4 md:p-20'>
       <div className='block md:flex gap-4 text-center md:text-left justify-between'> 
         <div>
           <p className=''>LET'S TALK</p>

@@ -1,10 +1,10 @@
-import React from 'react'
+import image from '../assets/DSC_3156.jpg'
 
 function About() {
   return (
-    <section className='block md:flex gap-4 p-4 md:p-20'>
+    <section id='about' className='block md:flex gap-4 p-4 md:p-20'>
       <div className='w-full'>
-        <img src="./src/assets/DSC_3156.jpg" alt="" />
+        <img src={image} alt="" />
       </div>
       <div className='w-full py-20'>
           <h2 className='l-spacing text-center text-slate-500 py-8'>Who I Am?</h2>

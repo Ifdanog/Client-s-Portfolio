@@ -2,7 +2,6 @@ import { FaArrowUp } from 'react-icons/fa'
 
 function Navbar() {
   const showNavbar = () => {
-    console.log('`1234567')
     const ul =  document.querySelector('.sideNav');
     ul.classList.toggle('visible');
   } 
@@ -13,21 +12,41 @@ function Navbar() {
       <p onClick={showNavbar} className='menuBtn'>☰</p>
       <nav>
         <ul className='topNav'>
-          <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>Home</li>
-          <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>Showcases</li>
-          <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>About</li>
-          <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>Portfolio</li>
-          <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>Contact</li>
+          <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>
+            <a href="#navbar">Home</a>
+          </li>
+          <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>
+            <a href="#showcases">Showcases</a>
+          </li>
+          <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>
+            <a href="#about">About</a>
+          </li>
+          <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
     <nav className='sideNav'> 
       <ul>
-        <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>Home</li>
-        <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>Showcases</li>
-        <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>About</li>
-        <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>Portfolio</li>
-        <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>Contact</li>
+        <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>
+          <a href="#navbar">Home</a>
+        </li>
+        <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>
+          <a href="#showcases">Showcases</a>
+        </li>
+        <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>
+          <a href="#about">About</a>
+        </li>
+        <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li className='text-sm text-charcoal hover:text-tan cursor-pointer'>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
     </nav>
 
