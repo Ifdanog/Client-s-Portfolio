@@ -766,7 +766,7 @@ video {
 header {
   height: 70vh;
   background-repeat: no-repeat;
-  background-image: url('./src/assets/neven-krcmarek-V4EOZj7g1gw-unsplash.jpg');
+  background-color: #122620;
   background-size: cover;
 }
 
@@ -852,19 +852,9 @@ header {
   font-weight: 900;
 }
 
-.hover\:bg-gold:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(214 173 96 / var(--tw-bg-opacity));
-}
-
 .hover\:text-tan:hover {
   --tw-text-opacity: 1;
   color: rgb(182 141 64 / var(--tw-text-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {

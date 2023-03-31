@@ -5,7 +5,7 @@ import israelDP from '../assets/Israel-dp.jpg'
 import naomiDP from '../assets/Naomi-dp.jpg'
 import nickDP from '../assets/nick.jpg'
 import raphDP from '../assets/Raph-dp.jpg'
-import samuelDP from '../assets/Samuel-dp.JPG'
+import samuelDP from '../assets/Samuel-dp.jpg'
 
 function Reviews() {
   return (
